@@ -227,7 +227,7 @@ bool Test_LinkedList::test8()
 	return (isPassed);
 }
 
-/*bool Test_LinkedList::test9()
+bool Test_LinkedList::test9()
 {
 	LinkedList<int> list;
 	bool isPassed = false;
@@ -244,10 +244,10 @@ bool Test_LinkedList::test8()
 	isPassed = !list.search(-1);
 	printPassFail(isPassed);
 	return (isPassed);
-}*/
+}
 
 
-/*bool Test_LinkedList::test10()
+bool Test_LinkedList::test10()
 {
 	LinkedList<int> list;
 	bool isPassed = true;
@@ -287,7 +287,7 @@ bool Test_LinkedList::test8()
 
 	printPassFail(isPassed);
 	return (isPassed);
-}*/
+}
 
 bool Test_LinkedList::test11()
 {
