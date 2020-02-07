@@ -115,7 +115,7 @@ Node<T>* lastNode = nullptr;
 Node<T>* secondintoLast = nullptr;
 bool isRemoved = false;
 
-/*if(!isEmpty())
+if(!isEmpty())
 {
 secondintoLast = m_front;
 
@@ -129,7 +129,7 @@ lastNode = nullptr;
 secondintoLast->setNext(lastNode);
 m_size--;
 }
-*/
+
 return(isRemoved);
 } 
 
