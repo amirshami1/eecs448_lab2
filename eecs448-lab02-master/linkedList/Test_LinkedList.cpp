@@ -28,8 +28,8 @@ void Test_LinkedList::runTests()
 	score += test7() ? 5 : 0;
 	score += test8() ? 2 : 0;
 	//score += test9() ? 5 : 0;
-	score += test10() ? 5 : 0;
-	score += test11() ? 2 : 0; 
+	//score += test10() ? 5 : 0;
+	score += test11() ? 2 : 0;
 	score += test12() ? 5 : 0;
 	score += test13() ? 2 : 0;
 	score += test14() ? 2 : 0;
@@ -247,7 +247,7 @@ bool Test_LinkedList::test8()
 }*/
 
 
-bool Test_LinkedList::test10()
+/*bool Test_LinkedList::test10()
 {
 	LinkedList<int> list;
 	bool isPassed = true;
@@ -287,7 +287,7 @@ bool Test_LinkedList::test10()
 
 	printPassFail(isPassed);
 	return (isPassed);
-}
+}*/
 
 bool Test_LinkedList::test11()
 {
